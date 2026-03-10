@@ -1,0 +1,26 @@
+# ═══════════════════════════════════════════════════════════════════
+#  AI Threat Modeling Learning Lab v2.0 — Requirements
+#  Python 3.9+  |  Run: streamlit run ai_threat_modeling_lab_v2.py
+# ═══════════════════════════════════════════════════════════════════
+
+# ── Core (required) ──────────────────────────────────────────────────
+streamlit>=1.35.0
+pandas>=2.0.0
+
+# ── PDF export (required) ────────────────────────────────────────────
+reportlab>=4.0.0
+
+# ── Optional: Graphviz for richer attack trees ───────────────────────
+# NOTE: requires system binary too:
+#   macOS:   brew install graphviz
+#   Ubuntu:  sudo apt-get install graphviz
+#   Windows: https://graphviz.org/download/
+# graphviz>=0.20.3
+
+# ── Optional: LLM integration for AI-assisted threat generation ──────
+# openai>=1.30.0
+# anthropic>=0.26.0
+
+# ── Dev / testing (optional) ─────────────────────────────────────────
+# pytest>=7.4.0
+# black>=23.0.0
